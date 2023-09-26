@@ -1,0 +1,38 @@
+/*Colour Pallet
+background #1E1E2E
+text #CDD6F4
+less important text #A6ADC8
+url text #F5C2E7
+contrasted text #F38BA8
+*/
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: linear-gradient(#1e1e2e 30%, #9198e5);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+header {
+    background-color: #1e1e2e;
+    width: 100%;
+    padding: 0;
+    margin:0;
+}
+
+
+::selection {
+  color: #11111B;
+  background: #f5c2e7;
+}
