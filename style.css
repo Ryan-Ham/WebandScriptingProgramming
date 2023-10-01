@@ -23,12 +23,14 @@ body {
     background: #1E1E2E;
 
     line-height:1.5;
-    font-family:"Nunito", "Roboto", ui-sans-serif,system-ui;
+    font-family: 'Atkinson Hyperlegible', Arial,  sans-serif;
+
 }
 
 
 #wrapper {
 width: 960px;
+height: 100vh;
 margin-left: auto;
 margin-right: auto;
 
@@ -57,7 +59,7 @@ header .headerContainer {
 
 navbar {
     apply white-space: nowrap;
-    margin: 10px;
+    margin-right: 6%;
 }
 
 ul .navbar{
@@ -65,19 +67,15 @@ ul .navbar{
     font-size: 14px;
 }
 
-.separator {
-    color: #CDD6F4;
-}
-
 footer {
 
 
-    position: fixed;
+    position: relative;
     bottom: 0;
     display: flex;
     width: 960px;
 
-    height: 35px;
+    height: 4%;
 
     align-items: center;
     
@@ -91,19 +89,24 @@ footer {
 
 h1{
     font-size: 50px;
+    color: #F38BA8;
 
 }
 
 
-h2{
-    font-size: 20px;
+h3{
+    font-size: 18px;
 }
 
+.separator {
+    color: #CDD6F4;
+}
 
 
 /* Body */
 
 article {
+    height: 100%;
     display: block;
 }
 
@@ -114,39 +117,39 @@ article {
 
 #right-column {
     float: right;
-    width: 30%;
-    height: 600px;
+    width: 42%;
+    height: 385px;
     background-color:LightGray;
+
+
     }
 
 
 /* The left-column ID style is floated left */
 #left-column {
 float: left;
-width: 70%;
+width: 58%;
 background-color:silver;
-height:600px;
+height:385px;
 }
 
 
-
-#bottomOfPage {
-    width: 960px;
-    height: 30%;
-
-
-}
 
 
 #mainBody {
-    width: 100%;
+    width: 960px;
+    height: 100%;
+    background: red;
+
 
 
 }
 
 
 
-
+img #homeImage {
+    border-radius: 10px;
+}
 
 
 
@@ -154,6 +157,7 @@ height:600px;
 
 figure {
     float: right;
+    padding: 40px;
 
 }
 
