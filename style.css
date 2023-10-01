@@ -8,27 +8,174 @@ contrasted text #F38BA8
 
 
 
-
-
+/* Basic Page Structure */
 * {
-    margin: 0;
-    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0px;
+    margin:0px;
 }
 
 
 body {
-    background: linear-gradient(#1e1e2e 30%, #9198e5);
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    width: 100vw;
     height: 100vh;
+    width: 100%;
+    background: #1E1E2E;
+
+    line-height:1.5;
+    font-family:"Nunito", "Roboto", ui-sans-serif,system-ui;
+}
+
+
+#wrapper {
+width: 960px;
+margin-left: auto;
+margin-right: auto;
 
 }
 
-header {
-    background-color: #1e1e2e;
+/* Basic Page Structure END */
+
+
+
+
+
+/* Header Elements */
+header .headerContainer {
+    width: 960px;
+    height: 100px;
+    margin: auto;
+
+    border: 3px solid red;
+
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+navbar {
+    apply white-space: nowrap;
+    margin: 10px;
+}
+
+ul .navbar{
+    list-style: none;
+    font-size: 14px;
+}
+
+.separator {
+    color: #CDD6F4;
+}
+
+footer {
+
+
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 960px;
+
+    height: 35px;
+
+    align-items: center;
+    
+    justify-content: space-evenly; 
+    background: blue; 
+}
+
+/* Header Elements     END*/
+
+/* Font Settings */
+
+h1{
+    font-size: 50px;
+
+}
+
+
+h2{
+    font-size: 20px;
+}
+
+
+
+/* Body */
+
+article {
+    display: block;
+}
+
+
+
+
+
+
+#right-column {
+    float: right;
+    width: 30%;
+    height: 600px;
+    background-color:LightGray;
+    }
+
+
+/* The left-column ID style is floated left */
+#left-column {
+float: left;
+width: 70%;
+background-color:silver;
+height:600px;
+}
+
+
+
+#bottomOfPage {
+    width: 960px;
+    height: 30%;
+
+
+}
+
+
+#mainBody {
     width: 100%;
-    padding: 0;
-    margin:0;
+
+
+}
+
+
+
+
+
+
+
+
+
+figure {
+    float: right;
+
+}
+
+
+
+
+
+
+
+/*Idk divider for misc items*/
+
+
+
+a {
+    text-decoration: none;
+    color: #F5C2E7;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: .6;
+
 }
 
 
