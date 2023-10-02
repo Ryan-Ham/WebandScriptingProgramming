@@ -4,42 +4,65 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Assignment 1</title>
-
+    <style>@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');</style>
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
     <div id="wrapper">
 
-    <header>
 
-        <nav>
+    <header>
+        <div class="headerContainer">
             
-            <h1>
-                <a href="./index.html" title="Home Page">Home</a>  |  
-                <a href="./about.html" title="About Page">About Me</a>  |  
-                <a href="./projects.html" title="Projects Page">Projects</a>  |  
-                <a href="./contact.html" title="Contact Page">Contact Me</a>
-                
-            </h1>
-        </nav>
+            <div class = "logo">
+                <h1>R<span class="separator">.</span>Hamilton</h1>
+            </div>
+
+
+
+            <navbar>
+                <ul class="navbar">
+                    <h3>
+                    <a href="./index.html" title="Home Page">Home</a>
+                    <span class="separator">  |  </span>
+                    <a href="./about.html" title="About Page">About Me</a>
+                    <span class="separator">  |  </span>
+                    <a href="./projects.html" title="Projects Page">Projects</a>
+                    <span class="separator">  |  </span>
+                    <a id="thisPage" href="./contact.html" title="Contact Page">Contact Me</a>
+                    </h3>
+                </ul>
+
+
+            </navbar>
+
+        </div>
+        
+
+
     </header>
+
 
 
     <article>
         
-        <section>
+        <section id="leftColumn1">
+            <div id="helloMessage">
+            <h2></h2>
+            <h2>Hello,</h2>
+            <h2>Welcome To</h2>
+            <h2>My Homepage!!!</h2>
 
-            <p class="PageTitle">Contact Page</p> <!-- Probably split into different lines, change when doing css -->
-
+             <!-- Probably split into different lines, change when doing css -->
+            </div>
         </section>
 
-        <section>
-            
-            <p>Insert form with stuff</p>
-
-        </section>
-
+        <aside id="rightColumn1">
+             <figure>
+                 <img id="homeImage" src="Temp.png" alt="Avatar" width="300" height="auto">
+             </figure>
+         </aside>
 
     </article>
 
@@ -47,7 +70,7 @@
 
     <footer>
 
-        <p>© Ryan Hamilton</p>
+        <p>© 2023 Ryan Hamilton</p>
 
         <address>
             <p>Email: <a href="ryan.hamilton3@ontariotechu.net">ryan.hamilton3@ontariotechu.net</a></p>

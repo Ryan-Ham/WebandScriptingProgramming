@@ -68,6 +68,13 @@ ul .navbar{
     font-size: 14px;
 }
 
+
+#thisPage {
+    font-size: 1.5rem;
+    opacity: 1;
+}
+
+
 footer {
 
 
@@ -90,35 +97,35 @@ footer {
 /* Font Settings */
 
 h1{
-    font-size: 50px;
+    font-size: 3.15rem;
     color: #F38BA8;
     margin-left: 6%;
-
 }
 
 h2 {
-
     font-size: 3rem;
     color: #CDD6F4;
-
-
-
 }
 
 h3{
     font-size: 18px;
 }
 
-.separator {
+h4 {
+    font-size: 2rem;
     color: #CDD6F4;
 }
+
+.separator {
+    color: #CDD6F4;
+    font-size: 1.35rem;
+
+}s
 
 
 /* Body */
 
 article {
-    margin-top: 7%;
-    height: 77%;
     display: block;
 }
 
@@ -126,28 +133,38 @@ article {
 
 
 
-
-#right-column {
-    display: flex;
+#rightColumn1 {
+    display: grid;
     float: right;
     width: 42%;
     height: 385px;
-    /*background-color:LightGray;/*/
+    }
+
+#leftColumn1 {
+    display: grid;
+    float: left;
+    width: 58%;
+    height:385px;
+}
 
 
+#leftColumn2 {
+    display: grid;
+    float: left;
+    width: 42%;
+    height: 385px;
+}
+
+#rightColumn2 {
+    display: grid;
+    float: right;
+    width: 58%;
+    height:385px;
     }
 
 
-/* The left-column ID style is floated left */
-#left-column {
-    display: flex;
-float: left;
-width: 58%;
-/*background-color:silver;/*/
-height:385px;
 
 
-}
 
 div #helloMessage {
     display: block;
@@ -157,7 +174,7 @@ div #helloMessage {
 }
 
 
-#mainBody {
+div #largeMessage {
     width: 960px;
     height: 95%;
     /*background: red;/*/
@@ -174,7 +191,6 @@ div #helloMessage {
 
 
 figure {
-    float: right;
     margin: auto;
 
 }
@@ -192,11 +208,12 @@ figure {
 a {
     text-decoration: none;
     color: #F5C2E7;
+    opacity: .75;
 }
 
 a:hover {
-    text-decoration: underline;
-    opacity: .6;
+    
+    opacity: 1;
 
 }
 
