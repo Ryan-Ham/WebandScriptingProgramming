@@ -174,11 +174,10 @@ div #helloMessage {
 }
 
 
-div #largeMessage {
-    width: 960px;
-    height: 95%;
-    /*background: red;/*/
-
+div #message {
+    display: block;
+    margin-top: 7%;
+    
 
 
 }
@@ -192,9 +191,12 @@ div #largeMessage {
 
 figure {
     margin: auto;
-
 }
 
+
+figure #backgroundChange {
+    background: linear-gradient(#1e1e2e 30%, #9198e5);
+}
 
 
 
