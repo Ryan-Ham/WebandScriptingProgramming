@@ -47,14 +47,15 @@ header .headerContainer {
     width: 960px;
     height: 100px;
     margin: auto;
+    background: #1E1E2E;
 
-    border: 3px solid red;
+    /* border: 3px solid red;  */ 
+    justify-content: space-between;
 
 
     display: flex;
     align-items: center;
     
-    justify-content: space-between;
 }
 
 navbar {
@@ -70,17 +71,18 @@ ul .navbar{
 footer {
 
 
-    position: relative;
+    position: fixed;
     bottom: 0;
     display: flex;
     width: 960px;
 
     height: 4%;
+    min-height: 30px;
 
     align-items: center;
     
     justify-content: space-evenly; 
-    background: blue; 
+    /*background: blue; /*/
 }
 
 /* Header Elements     END*/
@@ -90,9 +92,18 @@ footer {
 h1{
     font-size: 50px;
     color: #F38BA8;
+    margin-left: 6%;
 
 }
 
+h2 {
+
+    font-size: 3rem;
+    color: #CDD6F4;
+
+
+
+}
 
 h3{
     font-size: 18px;
@@ -106,7 +117,8 @@ h3{
 /* Body */
 
 article {
-    height: 100%;
+    margin-top: 7%;
+    height: 77%;
     display: block;
 }
 
@@ -116,10 +128,11 @@ article {
 
 
 #right-column {
+    display: flex;
     float: right;
     width: 42%;
     height: 385px;
-    background-color:LightGray;
+    /*background-color:LightGray;/*/
 
 
     }
@@ -127,19 +140,27 @@ article {
 
 /* The left-column ID style is floated left */
 #left-column {
+    display: flex;
 float: left;
 width: 58%;
-background-color:silver;
+/*background-color:silver;/*/
 height:385px;
+
+
 }
 
+div #helloMessage {
+    display: block;
+    margin: auto;
 
+    bottom: 0;
+}
 
 
 #mainBody {
     width: 960px;
-    height: 100%;
-    background: red;
+    height: 95%;
+    /*background: red;/*/
 
 
 
@@ -147,9 +168,6 @@ height:385px;
 
 
 
-img #homeImage {
-    border-radius: 10px;
-}
 
 
 
@@ -157,7 +175,7 @@ img #homeImage {
 
 figure {
     float: right;
-    padding: 40px;
+    margin: auto;
 
 }
 
@@ -180,6 +198,10 @@ a:hover {
     text-decoration: underline;
     opacity: .6;
 
+}
+
+p {
+   color: #A6ADC8; 
 }
 
 
