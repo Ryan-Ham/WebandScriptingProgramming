@@ -33,10 +33,7 @@
                     <a id="thisPage" href="./contact.html" title="Contact Page">Contact Me</a>
                     </h3>
                 </ul>
-
-
             </navbar>
-
         </div>
         
 
@@ -46,24 +43,40 @@
 
 
     <article>
-        
+       
+       <section>
+            <h2><br>Contact Me:</h2> 
+            <form action="mailto:ryan.hamilton3@ontariotechu.net" ?subject="Contact Me" enctype="text/plain" method="post" name="Form">
+            <p><br><br>
+                <label for="name">Name : </label>
+                <input type="text" name="name" size="30" placeholder="Enter you complete name here" required>
+            </p>
 
-        <section id="leftColumn1">
-            <div id="helloMessage">
-            <h2></h2>
-            <h2>Hello,</h2>
-            <h2>Welcome To</h2>
-            <h2>My Homepage!!!</h2>
+            <p>
+                <label for="email">Email : </label>
+                <input type="email" name="email" size="30" placeholder="Enter you email here" required>
+            </p>
 
-             <!-- Probably split into different lines, change when doing css -->
-            </div>
+            <p><br>
+                <label for="feedback">Comments : </label><br>
+                <textarea name="feedback" cols="60" rows="8"></textarea>
+            </p>
+
+            
+            
+            <p><br>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit"/>
+            </p>
+
+            </form>
         </section>
 
-        <aside id="rightColumn1">
-             <figure>
-                 <img id="homeImage" src="Temp.png" alt="Avatar" width="300" height="auto">
-             </figure>
-         </aside>
+      
+        
+
+
+
 
     </article>
 

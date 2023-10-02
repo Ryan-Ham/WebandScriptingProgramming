@@ -118,7 +118,7 @@ h4 {
 
 .separator {
     color: #CDD6F4;
-    font-size: 1.35rem;
+    font-size: 1.5rem;
 
 }s
 
@@ -163,6 +163,30 @@ article {
     }
 
 
+div #backgroundChange1 {
+    display: block;
+    margin: auto;
+    background: linear-gradient(#e61465 50%, #5198e5);
+    bottom: 0;
+    padding: .5rem;
+    border: .2rem solid #F38BA8;
+
+
+
+
+}
+
+div #backgroundChange2 {
+    display: block;
+    margin: auto;
+    background: linear-gradient(0.15turn, #e66465 30%, #9198e5);
+    bottom: 0;
+    padding: .5rem;
+    border: .2rem solid #F38BA8;
+
+
+}
+
 
 
 
@@ -182,7 +206,11 @@ div #message {
 
 }
 
-
+div #center {
+    position: relative;
+    margin: auto;
+    padding: auto;
+}
 
 
 
